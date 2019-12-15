@@ -24,7 +24,7 @@ class Task2
 			delete[] arr2D[i];
 		}
 
-		delete[] arr2D;
+		delete[] arr2D;//changed line lalalalalla удаление массива
 	}
 
 	void PrintArray2D(double** arr2D, size_t rows, size_t cols)
@@ -35,7 +35,7 @@ class Task2
 			{
 				cout << setw(10) << arr2D[i][j] << " "; //setw - ф-ция, задает ширину поля для вывода
 			}
-			cout << endl;
+			cout << endl<<endl;
 		}
 	}
 
